@@ -29,6 +29,7 @@ namespace Lands.Droid.Implementations
             {
                 if (platform == null)
                 {
+                    //platform = new SQLite.Net.Platform.XamarinAndroid.SQLitePlatformAndroidN();
                     platform = new SQLite.Net.Platform.XamarinAndroid.SQLitePlatformAndroid();
                 }
 
